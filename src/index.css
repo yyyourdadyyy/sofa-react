@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(248,243,240,1) 48%, rgba(255,248,244,1) 100%);
+    font-family: "Inter", sans-serif;
+}
+.wrapper{
+    width: 1280px;
+    margin: 50px auto;
+}
+header .logo{
+    background-image: url(/src/img/Sofa.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 75px;
+    height: 75px;
+}
+header .present {
+    width: 90vw;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+.description{
+    font-size: 2vh;
+    margin-top: 50px;
+    left: 8vw;
+    max-width: 24vw;
+    transition: opacity var(--transition), transform var(--transition);
+    transition-duration: 3s;
+    position: absolute;
+    top: 250px;
+}
+.description .text{
+    color: #fff;
+    font-size: 15px;
+    width: 300px;
+    margin-top: 15px;
+}
+.present-img{
+    background: url(/src/img/present.webp) no-repeat;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center 100%;
+    background-blend-mode: multiply;
+    background-color: #a8a8a8;
+}
+.present-logo{
+    width: 300px;
+    font-size: 40px;
+    top: 100px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.presentation{
+    background: url(/src/img/present.webp) no-repeat;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center 100%;
+    background-blend-mode: multiply;
+    background-color: #bcbcbc;
+
+}
+footer{
+    text-align: center;
+    margin-top: 10px;
+}
